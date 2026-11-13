@@ -4,11 +4,11 @@ WorkBuddy 专家团「心理支持与有效努力陪伴团」的源码仓库。
 
 ## 目录
 
--  — 专家包源码，可直接用于「专家中心 → 我的专家」或开放平台提交：
-  - ：团队清单与成员展示信息
-  - ：主理人 + 20 位成员的角色定义（21 个 MD）
-  - ：团队与成员头像（22 张 PNG）
-  - 、、
+- `psychological-companion/` — 专家包源码，可直接用于「专家中心 → 我的专家」或开放平台提交：
+  - `.codebuddy-plugin/plugin.json`：团队清单与成员展示信息
+  - `agents/`：主理人 + 20 位成员的角色定义（21 个 MD）
+  - `avatars/`：团队与成员头像（22 张 PNG）
+  - `settings.json`、`README.md`、`README.en.md`
 
 ## 说明
 
