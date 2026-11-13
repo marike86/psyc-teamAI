@@ -1,0 +1,466 @@
+{
+  "name": "psychological-companion",
+  "version": "1.1.0",
+  "description": "One AI companion team for focused reflection, effective effort and repair during the conversation.",
+  "author": {
+    "name": "marike86",
+    "email": "your-email@example.com"
+  },
+  "agents": [
+    "./agents/psychological-companion-team-lead.md",
+    "./agents/psychological-support-psychodynamic.md",
+    "./agents/psychological-support-attachment.md",
+    "./agents/psychological-support-mentalization.md",
+    "./agents/psychological-support-schema.md",
+    "./agents/psychological-support-emotion-focused.md",
+    "./agents/psychological-support-gestalt.md",
+    "./agents/psychological-support-compassion-focused.md",
+    "./agents/psychological-support-cognitive-behavioral.md",
+    "./agents/psychological-support-acceptance-commitment.md",
+    "./agents/psychological-support-dialectical-skills.md",
+    "./agents/psychological-support-interpersonal.md",
+    "./agents/psychological-support-systemic.md",
+    "./agents/psychological-support-narrative.md",
+    "./agents/psychological-support-solution-focused.md",
+    "./agents/psychological-support-existential.md",
+    "./agents/effective-effort-prioritization.md",
+    "./agents/effective-effort-bottleneck.md",
+    "./agents/effective-effort-co-execution.md",
+    "./agents/effective-effort-feedback.md",
+    "./agents/effective-effort-emotion-companion.md"
+  ],
+  "expertType": "team",
+  "agentName": "psychological-companion-team-lead",
+  "teamInfo": {
+    "leadAgent": "psychological-companion-team-lead",
+    "memberAgents": [
+      "psychological-support-psychodynamic",
+      "psychological-support-attachment",
+      "psychological-support-mentalization",
+      "psychological-support-schema",
+      "psychological-support-emotion-focused",
+      "psychological-support-gestalt",
+      "psychological-support-compassion-focused",
+      "psychological-support-cognitive-behavioral",
+      "psychological-support-acceptance-commitment",
+      "psychological-support-dialectical-skills",
+      "psychological-support-interpersonal",
+      "psychological-support-systemic",
+      "psychological-support-narrative",
+      "psychological-support-solution-focused",
+      "psychological-support-existential",
+      "effective-effort-prioritization",
+      "effective-effort-bottleneck",
+      "effective-effort-co-execution",
+      "effective-effort-feedback",
+      "effective-effort-emotion-companion"
+    ]
+  },
+  "displayName": {
+    "zh": "心理支持与有效努力陪伴团",
+    "en": "Psychological Support and Effective Effort Team"
+  },
+  "profession": {
+    "zh": "心理支持与有效努力陪伴团",
+    "en": "Psychological Support and Effective Effort Team"
+  },
+  "displayDescription": {
+    "zh": "同一位团长按需陪你梳理情绪与关系、推进眼前任务，并在受挫或对话出现摩擦时及时调整陪伴方式。",
+    "en": "One lead helps you explore emotions and relationships, make progress on a task, and repair friction during the conversation."
+  },
+  "avatar": "avatars/team.png",
+  "categoryId": "12-IndustryConsultant",
+  "defaultInitPrompt": {
+    "zh": "我想说说今天这件事，也希望等会儿能做一点。",
+    "en": "I'd like to talk about what happened today and then see if I can take a small step."
+  },
+  "plugin": "psychological-companion",
+  "tags": [
+    {
+      "zh": "心理支持",
+      "en": "Psychological Support"
+    },
+    {
+      "zh": "有效努力",
+      "en": "Effective Effort"
+    },
+    {
+      "zh": "情绪陪伴",
+      "en": "Emotional Companionship"
+    }
+  ],
+  "quickPrompts": [
+    {
+      "zh": "我想说说今天这件事，也希望等会儿能做一点。",
+      "en": "I'd like to talk about what happened today and then see if I can take a small step."
+    },
+    {
+      "zh": "陪我做眼前这一步，边做边调整。",
+      "en": "Work alongside me on the next step and adjust with me as we go."
+    },
+    {
+      "zh": "刚才的回应让我不舒服，我们先把这段话说清楚。",
+      "en": "That last reply bothered me. Help me work through what happened in our conversation."
+    }
+  ],
+  "members": [
+    {
+      "id": "psychological-companion-team-lead",
+      "name": {
+        "zh": "安续之",
+        "en": "An"
+      },
+      "profession": {
+        "zh": "同会话陪伴与调度总监",
+        "en": "Continuous Companion & Orchestration Director"
+      },
+      "avatar": "avatars/psychological-companion-team-lead.png",
+      "role": "lead",
+      "displayName": {
+        "zh": "安续之",
+        "en": "An"
+      }
+    },
+    {
+      "id": "psychological-support-psychodynamic",
+      "name": {
+        "zh": "沈溯源",
+        "en": "Shen"
+      },
+      "profession": {
+        "zh": "心理动力学 · 重复模式探索",
+        "en": "Psychodynamic · Recurring Pattern Exploration"
+      },
+      "avatar": "avatars/psychological-support-psychodynamic.png",
+      "role": "member",
+      "displayName": {
+        "zh": "沈溯源",
+        "en": "Shen"
+      }
+    },
+    {
+      "id": "psychological-support-attachment",
+      "name": {
+        "zh": "穆依安",
+        "en": "Mu"
+      },
+      "profession": {
+        "zh": "依恋取向 · 联结需要澄清",
+        "en": "Attachment-Informed · Connection Needs"
+      },
+      "avatar": "avatars/psychological-support-attachment.png",
+      "role": "member",
+      "displayName": {
+        "zh": "穆依安",
+        "en": "Mu"
+      }
+    },
+    {
+      "id": "psychological-support-mentalization",
+      "name": {
+        "zh": "闵知微",
+        "en": "Min"
+      },
+      "profession": {
+        "zh": "心智化 MBT · 心理状态辨识",
+        "en": "Mentalization (MBT) · Mental State Clarification"
+      },
+      "avatar": "avatars/psychological-support-mentalization.png",
+      "role": "member",
+      "displayName": {
+        "zh": "闵知微",
+        "en": "Min"
+      }
+    },
+    {
+      "id": "psychological-support-schema",
+      "name": {
+        "zh": "陈习之",
+        "en": "Chen"
+      },
+      "profession": {
+        "zh": "图式疗法 · 核心信念辨识",
+        "en": "Schema Therapy · Core Belief Patterns"
+      },
+      "avatar": "avatars/psychological-support-schema.png",
+      "role": "member",
+      "displayName": {
+        "zh": "陈习之",
+        "en": "Chen"
+      }
+    },
+    {
+      "id": "psychological-support-emotion-focused",
+      "name": {
+        "zh": "戚抒怀",
+        "en": "Qi"
+      },
+      "profession": {
+        "zh": "情绪聚焦 EFT · 当下感受命名",
+        "en": "Emotion-Focused (EFT) · Naming Present Feelings"
+      },
+      "avatar": "avatars/psychological-support-emotion-focused.png",
+      "role": "member",
+      "displayName": {
+        "zh": "戚抒怀",
+        "en": "Qi"
+      }
+    },
+    {
+      "id": "psychological-support-gestalt",
+      "name": {
+        "zh": "方在兹",
+        "en": "Fang"
+      },
+      "profession": {
+        "zh": "格式塔 · 此时此地觉察",
+        "en": "Gestalt · Here-and-Now Awareness"
+      },
+      "avatar": "avatars/psychological-support-gestalt.png",
+      "role": "member",
+      "displayName": {
+        "zh": "方在兹",
+        "en": "Fang"
+      }
+    },
+    {
+      "id": "psychological-support-compassion-focused",
+      "name": {
+        "zh": "舒自宽",
+        "en": "Shu"
+      },
+      "profession": {
+        "zh": "慈悲聚焦 CFT · 自责缓和",
+        "en": "Compassion-Focused (CFT) · Easing Self-Criticism"
+      },
+      "avatar": "avatars/psychological-support-compassion-focused.png",
+      "role": "member",
+      "displayName": {
+        "zh": "舒自宽",
+        "en": "Shu"
+      }
+    },
+    {
+      "id": "psychological-support-cognitive-behavioral",
+      "name": {
+        "zh": "柯念衡",
+        "en": "Ke"
+      },
+      "profession": {
+        "zh": "认知行为 CBT · 想法检验",
+        "en": "CBT · Appraisal Checking"
+      },
+      "avatar": "avatars/psychological-support-cognitive-behavioral.png",
+      "role": "member",
+      "displayName": {
+        "zh": "柯念衡",
+        "en": "Ke"
+      }
+    },
+    {
+      "id": "psychological-support-acceptance-commitment",
+      "name": {
+        "zh": "任纳川",
+        "en": "Ren"
+      },
+      "profession": {
+        "zh": "接纳承诺 ACT · 价值小步",
+        "en": "ACT · Values & Small Steps"
+      },
+      "avatar": "avatars/psychological-support-acceptance-commitment.png",
+      "role": "member",
+      "displayName": {
+        "zh": "任纳川",
+        "en": "Ren"
+      }
+    },
+    {
+      "id": "psychological-support-dialectical-skills",
+      "name": {
+        "zh": "钟持平",
+        "en": "Zhong"
+      },
+      "profession": {
+        "zh": "辩证行为 DBT · 应对技能",
+        "en": "DBT Skills · Brief Coping Options"
+      },
+      "avatar": "avatars/psychological-support-dialectical-skills.png",
+      "role": "member",
+      "displayName": {
+        "zh": "钟持平",
+        "en": "Zhong"
+      }
+    },
+    {
+      "id": "psychological-support-interpersonal",
+      "name": {
+        "zh": "柳际和",
+        "en": "Liu"
+      },
+      "profession": {
+        "zh": "人际 IPT · 关系事件梳理",
+        "en": "IPT · Interpersonal Events"
+      },
+      "avatar": "avatars/psychological-support-interpersonal.png",
+      "role": "member",
+      "displayName": {
+        "zh": "柳际和",
+        "en": "Liu"
+      }
+    },
+    {
+      "id": "psychological-support-systemic",
+      "name": {
+        "zh": "周环生",
+        "en": "Zhou"
+      },
+      "profession": {
+        "zh": "系统式 · 互动循环观察",
+        "en": "Systemic · Interaction Cycles"
+      },
+      "avatar": "avatars/psychological-support-systemic.png",
+      "role": "member",
+      "displayName": {
+        "zh": "周环生",
+        "en": "Zhou"
+      }
+    },
+    {
+      "id": "psychological-support-narrative",
+      "name": {
+        "zh": "纪重书",
+        "en": "Ji"
+      },
+      "profession": {
+        "zh": "叙事疗法 · 例外经历挖掘",
+        "en": "Narrative · Unique Outcomes"
+      },
+      "avatar": "avatars/psychological-support-narrative.png",
+      "role": "member",
+      "displayName": {
+        "zh": "纪重书",
+        "en": "Ji"
+      }
+    },
+    {
+      "id": "psychological-support-solution-focused",
+      "name": {
+        "zh": "易寸进",
+        "en": "Yi"
+      },
+      "profession": {
+        "zh": "焦点解决 SFBT · 例外小步",
+        "en": "SFBT · Exceptions & Small Steps"
+      },
+      "avatar": "avatars/psychological-support-solution-focused.png",
+      "role": "member",
+      "displayName": {
+        "zh": "易寸进",
+        "en": "Yi"
+      }
+    },
+    {
+      "id": "psychological-support-existential",
+      "name": {
+        "zh": "俞自择",
+        "en": "Yu"
+      },
+      "profession": {
+        "zh": "存在主义 · 取舍与意义澄清",
+        "en": "Existential · Tradeoffs & Meaning"
+      },
+      "avatar": "avatars/psychological-support-existential.png",
+      "role": "member",
+      "displayName": {
+        "zh": "俞自择",
+        "en": "Yu"
+      }
+    },
+    {
+      "id": "effective-effort-prioritization",
+      "name": {
+        "zh": "简取先",
+        "en": "Jian"
+      },
+      "profession": {
+        "zh": "任务优先级判断",
+        "en": "Task Prioritization"
+      },
+      "avatar": "avatars/effective-effort-prioritization.png",
+      "role": "member",
+      "displayName": {
+        "zh": "简取先",
+        "en": "Jian"
+      }
+    },
+    {
+      "id": "effective-effort-bottleneck",
+      "name": {
+        "zh": "关未通",
+        "en": "Guan"
+      },
+      "profession": {
+        "zh": "执行卡点诊断",
+        "en": "Execution Bottleneck Diagnosis"
+      },
+      "avatar": "avatars/effective-effort-bottleneck.png",
+      "role": "member",
+      "displayName": {
+        "zh": "关未通",
+        "en": "Guan"
+      }
+    },
+    {
+      "id": "effective-effort-co-execution",
+      "name": {
+        "zh": "陆同行",
+        "en": "Lu"
+      },
+      "profession": {
+        "zh": "协同执行搭档",
+        "en": "Co-Execution Partner"
+      },
+      "avatar": "avatars/effective-effort-co-execution.png",
+      "role": "member",
+      "displayName": {
+        "zh": "陆同行",
+        "en": "Lu"
+      }
+    },
+    {
+      "id": "effective-effort-feedback",
+      "name": {
+        "zh": "顾再调",
+        "en": "Gu"
+      },
+      "profession": {
+        "zh": "产出复盘与调整",
+        "en": "Output Review & Adjustment"
+      },
+      "avatar": "avatars/effective-effort-feedback.png",
+      "role": "member",
+      "displayName": {
+        "zh": "顾再调",
+        "en": "Gu"
+      }
+    },
+    {
+      "id": "effective-effort-emotion-companion",
+      "name": {
+        "zh": "宁听言",
+        "en": "Ning"
+      },
+      "profession": {
+        "zh": "任务情绪与对话修复",
+        "en": "Task Emotions & Conversation Repair"
+      },
+      "avatar": "avatars/effective-effort-emotion-companion.png",
+      "role": "member",
+      "displayName": {
+        "zh": "宁听言",
+        "en": "Ning"
+      }
+    }
+  ],
+  "homepage": "https://github.com/marike86/Psychology-Inspired-Cognitive-Agents"
+}
